@@ -1,0 +1,14 @@
+1. Install python 3.x.x
+2. FOR LINUX:
+   pip3 install -U -r ./requirements.txt in your shell 
+   
+   FOR WINDOWS:
+   pip install -U -r .\requirements.txt in your cmd
+
+3. **The included chromedriver are for Google Chrome v77.x
+   To check your Chrome version open Chrome, click menu icon, go to Help->About Google Chrome
+   In case of different version download the respective chromedriver from https://chromedriver.chromium.org/downloads
+
+4. While using the scraper with time frame, if the hashtag is very common and you need to scraper older data,
+   edit the *right most* number in source code marked with "#***#" to a higher value like 2000.
+   NOTE: it will increase the duration of scraping.
